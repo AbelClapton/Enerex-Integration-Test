@@ -1,0 +1,20 @@
+.icon-button {
+  border-radius: 100px;
+  aspect-ratio: 1;
+  width: 1rem;
+  display: grid;
+  place-content: center;
+  margin-block: -0.25rem;
+  box-shadow: none;
+  color: rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.7);
+    box-shadow: none;
+  }
+
+  &:active,
+  &:focus {
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
